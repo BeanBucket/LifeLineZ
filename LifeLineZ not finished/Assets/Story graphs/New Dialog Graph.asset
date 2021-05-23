@@ -55,7 +55,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   MessageArray: "Nah im not hungry yet.\nGonna eat at work, heard there are some
-    new banging \npancakes there "
+    new banging \npancakes there \n"
   Answers:
   - text: 
     actions:
@@ -122,6 +122,79 @@ MonoBehaviour:
     actions:
       m_PersistentCalls:
         m_Calls: []
+    Count: 0
+--- !u!114 &-8905611826778543122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 120, y: -40}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -8905611826778543122}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -2495983461342720470}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -8905611826778543122}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -8905611826778543122}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2736938076657917286}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: Aaaaa, Here we go again..
+  Answers:
+  - text: Dress up
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 20
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-8855846891695529855
 MonoBehaviour:
@@ -356,7 +429,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 25720, y: -568}
+  position: {x: 25832, y: -376}
   ports:
     keys:
     - input
@@ -369,7 +442,7 @@ MonoBehaviour:
         PublicKeyToken=null
       connections:
       - fieldName: Answers 0
-        node: {fileID: 3995232087759642311}
+        node: {fileID: 95411837114655629}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -458,15 +531,36 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "And finnaly what felt like centuries but actually was more like
+  MessageArray: 'And finnaly what felt like centuries but actually was more like
     a few minuts you got out of there just in time because as you just left you could
-    see in the corner of your eye \r\nThe old boss as red as a tomato sprinting like
-    a huld to you"
+    see in the corner of your eye . The old boss as red as a tomato sprinting like
+    a bull to you
+
+
+
+
+
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 20
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-8397829869434568284
 MonoBehaviour:
@@ -522,8 +616,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: The other coworkers all look at you with sadness. You understand
+  MessageArray: 'The other coworkers all look at you with sadness. You understand
     that they all had the same treatment today.
+
+
+
+'
   Answers:
   - text: 
     actions:
@@ -810,6 +908,64 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
+--- !u!114 &-8336500498778537425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 28088, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -8336500498778537425}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -42951846847143467}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -8336500498778537425}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -8336500498778537425}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: You wake up
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
 --- !u!114 &-8296087363307214655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -934,7 +1090,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 30
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-7977755690749685248
 MonoBehaviour:
@@ -1119,12 +1287,25 @@ MonoBehaviour:
 
     Perfect
 
-    Perfect'
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-7713076098945333070
 MonoBehaviour:
@@ -1223,6 +1404,69 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
+--- !u!114 &-7709374295252579945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 26200, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -7709374295252579945}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -3225986365143621572}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -7709374295252579945}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -7709374295252579945}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4709650027085936448}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: 'You drive back home seeing strange things.
+
+'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
 --- !u!114 &-7645064113462366935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1290,7 +1534,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Do you want to go sit on the couch and watch TV?
+  MessageArray: 'Do you want to go sit on the couch and watch TV?
+
+'
   Answers:
   - text: Yes
     actions:
@@ -1357,17 +1603,110 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   MessageArray: "Hello there all my law abiding people I bring you urgend and wery
-    strange news\r\nThere is a new unusual disease ravaging a country \r\nThere should
-    be news from the goverment hitting your messages sometime today and there will
-    be a TV broadcast aswell\r\nThe disease allegedly turns people into zombies\r\nWell
-    gamer boys and gamer girls its your time to shine \"Chuckles\"\r\nWell thats
-    all from me folks \r\nHave an amazing night, stay safe,drive safe ,and most of
-    all enjoy the banger music\r\n\"Music start playing again\""
+    strange news\r, from other side of the world. There is a new unusual disease
+    ravaging a country. There should be\n news from the goverment\n hitting your
+    messages\n sometime today and there will\n be a TV broadcast aswell\r\nThe disease
+    allegedly turns people into zombies\r\nWell gamer boys and gamer girls its your
+    time to shine \"Chuckles\"\r\nWell thats all from me folks \r\nHave an amazing
+    night, stay safe,drive safe ,and most of all enjoy the banger music\r\n\"Music
+    start playing again\""
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    Count: 0
+--- !u!114 &-7593054762520357533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 26744, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -7593054762520357533}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 4709650027085936448}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -7593054762520357533}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -7593054762520357533}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6779833636434627893}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: 'You get back home
+
+    Close the door behind you
+
+    And you look
+    for a comfy place to drop dead
+
+'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-7585933135013422664
 MonoBehaviour:
@@ -1612,12 +1951,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "Hello there all my law abiding people I bring you urgend and wery
-    strange news\r\nThere is a new unusual disease ravaging a country \r\nThere should
-    be news from the goverment hitting your messages sometime today and there will
-    be a TV broadcast aswell\r\nWell thats all from me folks \r\nHave an amazing
-    night, stay safe,drive safe ,and most of all enjoy the banger music\r\n\"Music
-    start playing again\""
+  MessageArray: "Hello there all my law abiding people I bring you urgend and very
+    strange news\r, from other side of the world. There is a new unusual disease
+    ravaging\n a country \r\nThere should be news from the goverment hitting your
+    messages sometime today and there will be a TV broadcast aswell\r\nWell thats
+    all from me folks \r\nHave an amazing night, stay safe,drive safe ,and most of
+    all enjoy the banger music\r\n\"Music start playing again\""
   Answers:
   - text: 
     actions:
@@ -1805,7 +2144,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-7022053770802430893
 MonoBehaviour:
@@ -1861,7 +2212,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'well i an say its bad but i''ve heard worse '
+  MessageArray: "well i an say its bad but i've heard worse \n"
   Answers:
   - text: 
     actions:
@@ -1924,10 +2275,130 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'You decide to leave the bar.
 
-    Be as it is but you had enouth.
-
-
-'
+    Be as it is but you had enouth.'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
+--- !u!114 &-6779833636434627893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 27032, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -6779833636434627893}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -7593054762520357533}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -6779833636434627893}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -6779833636434627893}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6745750869546812065}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: You just started to doze off and your phone started getting a load
+    of messages
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
+--- !u!114 &-6745750869546812065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 27320, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -6745750869546812065}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -6779833636434627893}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -6745750869546812065}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -6745750869546812065}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8891669164822661312}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: "What the fuck its like a \n vibrator"
   Answers:
   - text: 
     actions:
@@ -1988,7 +2459,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: And of course after a song there are 2 adds that must play
+  MessageArray: "And of course after a song\n there are 2 adds that must play\n"
   Answers:
   - text: 
     actions:
@@ -2064,7 +2535,7 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: What are you going to do?
   Answers:
-  - text: Spit in his face
+  - text: Spit in his carpet
     actions:
       m_PersistentCalls:
         m_Calls: []
@@ -2128,7 +2599,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: COME ON I BEG YOU
+  MessageArray: COME ON BABY I BEG YOU
   Answers:
   - text: 
     actions:
@@ -2189,13 +2660,30 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: After 9 grueling hours of work you think that the day is finnished
-    but in a suprising twist the boss calls you up again
+  MessageArray: 'After 9 grueling hours of work you think that the day is finished
+    but in a suprising twist the boss calls you up again...
+
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetTimeToWait
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 1
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-6320257427631210768
 MonoBehaviour:
@@ -2277,7 +2765,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Youre fired
+  MessageArray: You're fired
   Answers:
   - text: What?
     actions:
@@ -2287,7 +2775,19 @@ MonoBehaviour:
   - text: '"Just stand there in confusion"'
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetTimeToWait
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 1
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
   - text: stay silent
     actions:
@@ -2351,67 +2851,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You see alot of emergency service cars driving
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
---- !u!114 &-6094408715299464497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 22376, y: 648}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: -6094408715299464497}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: -3713340699293400108}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: -6094408715299464497}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: -6094408715299464497}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: 'You get back inside, sit down and contemplate life further.
-
-
+  MessageArray: 'You see alot of emergency service cars driving
 
 '
   Answers:
@@ -2614,7 +3054,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Just remember kiddo this week
+  MessageArray: 'Just remember kiddo this week
+
+'
   Answers:
   - text: 
     actions:
@@ -2645,7 +3087,10 @@ MonoBehaviour:
       _node: {fileID: -6003913394728946889}
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -3713340699293400108}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -2692,7 +3137,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 26328, y: -568}
+  position: {x: 26344, y: -376}
   ports:
     keys:
     - input
@@ -2735,7 +3180,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-5799352966083475628
 MonoBehaviour:
@@ -2791,7 +3248,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: YOU OLD PIECE OF SHIT
+  MessageArray: YOU OLD PIECE OF...
   Answers:
   - text: 
     actions:
@@ -2852,12 +3309,24 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "You shut the door  behind you \nTke off your shoes  and jacket"
+  MessageArray: "You shut the door  behind you \nTake off your shoes  and\n jacket"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-5747000197903445047
 MonoBehaviour:
@@ -2916,6 +3385,69 @@ MonoBehaviour:
   MessageArray: 'You put the key in but ...
 
     It wont start'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
+--- !u!114 &-5685728876995687163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 19240, y: 920}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -5685728876995687163}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: -1687555946271307547}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -5685728876995687163}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -5685728876995687163}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7445021709436225705}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: 'You hear alot more sirens this time
+
+'
   Answers:
   - text: 
     actions:
@@ -2981,69 +3513,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
-    Count: 0
---- !u!114 &-5572426269535768906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 27032, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: -5572426269535768906}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: 3395553757161530477}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: -5572426269535768906}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: -5572426269535768906}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: 845425916314585170}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: You just started to doze off and your phone started getting a load
-    of messages
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 50
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-5390601122117581241
 MonoBehaviour:
@@ -3106,18 +3588,33 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 6441028103608158302}
+        node: {fileID: 5563734874817466888}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Do you want to go smoke to cool off and digest what you jsut heard?
+  MessageArray: 'Do you want to go smoke to cool off and digest what you just heard?
+
+
+'
   Answers:
   - text: Yes
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
   - text: No
     actions:
@@ -3257,7 +3754,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "Well i cant wait any lonker \nYou msut pay this week or i will need
+  MessageArray: "Well i cant wait any longer \nYou must pay this week or i will need
     to throw you out\nAnd i realy dont want to do that"
   Answers:
   - text: 
@@ -3319,7 +3816,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Yeah ive heard abaut it but not much just that it exists
+  MessageArray: 'Yeah ive heard abaut it but not much just that it exists
+
+'
   Answers:
   - text: 
     actions:
@@ -3380,8 +3879,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You decide to smoke while driving. While it isnt the healthiest solution
-    it's a solution nontheless
+  MessageArray: "You decide to smoke while driving. While it isnt the healthiest
+    solution it's a\n solution non the less\n\n"
   Answers:
   - text: 
     actions:
@@ -3753,12 +4252,24 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   MessageArray: "You get to you car \nPut all you things in the back and just sit
-    there staring at the wheel"
+    there staring at the wheel\n\n\n"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-4589166273148372392
 MonoBehaviour:
@@ -3939,7 +4450,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Ight what do we have in the fridge...
+  MessageArray: "Aight what do we have in the\n fridge..."
   Answers:
   - text: 
     actions:
@@ -4056,7 +4567,10 @@ MonoBehaviour:
       _node: {fileID: -4132898759791480613}
       _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: input
+        node: {fileID: 973835498526618373}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -4066,7 +4580,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 35
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-4131384272739624833
 MonoBehaviour:
@@ -4312,13 +4838,30 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Well a bar mans job is to serve drinks and hear peoples storys Trust
+  MessageArray: 'Well a bar mans job is to serve drinks and hear peoples storys Trust
     me when i say it but i ve heard so many bad stories that you cant even imagine
+
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-3713340699293400108
 MonoBehaviour:
@@ -4345,11 +4888,11 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
-        node: {fileID: 6245477822695695732}
-        reroutePoints: []
       - fieldName: Answers 0
         node: {fileID: -7034645277367549335}
+        reroutePoints: []
+      - fieldName: Answers 0
+        node: {fileID: -1212110550015383365}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -4371,7 +4914,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: -6094408715299464497}
+        node: {fileID: -6003913394728946889}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -4440,7 +4983,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: One of the people in the group asks
+  MessageArray: "One of the people in the group\n asks"
   Answers:
   - text: 
     actions:
@@ -4773,17 +5316,34 @@ MonoBehaviour:
       _node: {fileID: -3484567469092983744}
       _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: input
+        node: {fileID: 6860316664089819204}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You drive back home seeing strange things.
+  MessageArray: 'You drive back home seeing strange things.
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-3460059400062518770
 MonoBehaviour:
@@ -5078,7 +5638,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 2378070843781360400}
+        node: {fileID: -7709374295252579945}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -5089,7 +5649,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-3129868881707875950
 MonoBehaviour:
@@ -5145,13 +5717,28 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: When you arrive at work a coworker tels you that the boss wants to
-    see you.
+  MessageArray: 'When you arrive at work a coworker tells you that the boss wants
+    to see you.
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-3050493193412557551
 MonoBehaviour:
@@ -5403,7 +5990,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-2931786588466732886
 MonoBehaviour:
@@ -5479,7 +6078,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 840, y: -56}
+  position: {x: 728, y: 40}
   ports:
     keys:
     - input
@@ -5494,6 +6093,9 @@ MonoBehaviour:
       connections:
       - fieldName: Answers 0
         node: {fileID: -1235231208118010911}
+        reroutePoints: []
+      - fieldName: Answers 0
+        node: {fileID: -8905611826778543122}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -5538,7 +6140,19 @@ MonoBehaviour:
   - text: Eat
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: ChangeMorale
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
   - text: Dont eat
     actions:
@@ -5779,7 +6393,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: -1235231208118010911}
+        node: {fileID: -8905611826778543122}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -5805,21 +6419,69 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
           m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
-          m_MethodName: SetTimeToWait
-          m_Mode: 4
+          m_MethodName: SetTime
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 20
+            m_IntArgument: 390
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetMorale
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 70
+            m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
     Count: 0
-  - text: Snooze... 15 mins
+  - text: Snooze... 5 mins
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetSleepInLogic
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 6
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: sleepInLogic
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4611306034823136846}
+            m_ObjectArgumentAssemblyTypeName: DialogInforamtion, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-2416320059971319994
 MonoBehaviour:
@@ -5900,7 +6562,19 @@ MonoBehaviour:
   - text: no
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-2413375302353758767
 MonoBehaviour:
@@ -5956,7 +6630,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: What the fuck its like a  vibrator
+  MessageArray: 'What the fuck its like a  vibrator
+
+'
   Answers:
   - text: 
     actions:
@@ -6017,7 +6693,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You do understand the payment was due last week?
+  MessageArray: 'You do understand that the payment was due last week?
+
+'
   Answers:
   - text: 
     actions:
@@ -6224,7 +6902,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 21624, y: -600}
+  position: {x: 21640, y: -600}
   ports:
     keys:
     - input
@@ -6265,7 +6943,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: An another member of the group says
+  MessageArray: 'And another member of the group says
+
+'
   Answers:
   - text: 
     actions:
@@ -6339,7 +7019,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 7445021709436225705}
+        node: {fileID: -5685728876995687163}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -6355,7 +7035,19 @@ MonoBehaviour:
   - text: Home
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-1579622151114214584
 MonoBehaviour:
@@ -6411,12 +7103,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You start telling him all your troubles and worries
+  MessageArray: 'You start telling him all your troubles and worries
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-1554727908590635289
 MonoBehaviour:
@@ -6548,7 +7254,10 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: The barman asks if you have heard abaut a new strange disease?
+  MessageArray: 'The barman asks if you have heard abaut a new strange disease?
+
+
+'
   Answers:
   - text: Yes
     actions:
@@ -6614,7 +7323,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: COME ON I BEG YOU
+  MessageArray: COME ON BABY  I BEG YOU
   Answers:
   - text: 
     actions:
@@ -6818,7 +7527,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 504, y: -40}
+  position: {x: 408, y: 120}
   ports:
     keys:
     - input
@@ -6832,9 +7541,6 @@ MonoBehaviour:
       connections:
       - fieldName: Answers 0
         node: {fileID: 4611306034823136846}
-        reroutePoints: []
-      - fieldName: Answers 0
-        node: {fileID: -2495983461342720470}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -6872,12 +7578,85 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
           m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
-          m_MethodName: Time
+          m_MethodName: AddTime
           m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 30
+            m_IntArgument: 20
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    Count: 0
+--- !u!114 &-1212110550015383365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 21560, y: 680}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -1212110550015383365}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: 6245477822695695732}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -1212110550015383365}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -1212110550015383365}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3713340699293400108}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: Some time passes
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -7065,7 +7844,7 @@ MonoBehaviour:
 
     Close the door behind you
 
-    And you look
+    and you look
     for a comfy place to drop dead
 
 '
@@ -7129,7 +7908,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You turn on the radio and just go on a random music station
+  MessageArray: 'You turn on the radio and just go on a random music station
+
+'
   Answers:
   - text: 
     actions:
@@ -7190,7 +7971,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You jump in the car as if it was your only ticket to survive
+  MessageArray: 'You jump in the car as if it was your only ticket to survive
+
+'
   Answers:
   - text: 
     actions:
@@ -7388,8 +8171,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: A person in the group asks you if you have heard abaut a new strange
-    disease?
+  MessageArray: "A person in the group asks\n you if you have heard abaut a\n new
+    strange disease?"
   Answers:
   - text: Yes
     actions:
@@ -7455,7 +8238,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You turn on spotify to listen to some random music on your playlist
+  MessageArray: "You turn on spotify to listen to\n some random music on your \nplaylist"
   Answers:
   - text: 
     actions:
@@ -7516,8 +8299,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Youre not much of a drinker but this is a occasion that must be settled
-    with a bottle of beer
+  MessageArray: "Youre not much of a drinker but this is a occasion that must be
+    settled with \na bottle of beer\n\n"
   Answers:
   - text: 
     actions:
@@ -7578,7 +8361,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You hear me, you fat piece of shit
+  MessageArray: You hear me, you fat piece
   Answers:
   - text: 
     actions:
@@ -7639,15 +8422,27 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "And finnaly what felt like centuries but actually was more like
-    a few minuts you got out of there just in time because as you just left you could
-    see in the corner of your eye \r\nThe old boss as red as a tomato sprinting like
-    a huld to you"
+  MessageArray: "And finnaly what felt like centuries but actually was\n more like
+    a few minuts you\n got out of there just in time\n because as you just left you\n
+    could see in the corner of\n your eye. The old boss as red as a tomato sprinting
+    like a huld to you\n\n\n"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-316276964960829953
 MonoBehaviour:
@@ -7662,7 +8457,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14136, y: 248}
+  position: {x: 14136, y: 216}
   ports:
     keys:
     - input
@@ -7703,17 +8498,30 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'You start hitting the whell of the car.
+  MessageArray: 'You start hitting the whell of the car. That does more damage to
+    you than the car. After a few minuts you calm down.
 
-    That does more damage
-    to you than the car.
 
-    After a few minuts you calm down.'
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &-194704765413810901
 MonoBehaviour:
@@ -7894,6 +8702,169 @@ MonoBehaviour:
     actions:
       m_PersistentCalls:
         m_Calls: []
+    Count: 0
+--- !u!114 &-42951846847143467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 27832, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -42951846847143467}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 8891669164822661312}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -42951846847143467}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -42951846847143467}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8336500498778537425}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: A NEW GLOBAL UNKNOWN INFECTION HAS STARTED
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
+--- !u!114 &-35207086348538994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: MISSION WASTED
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 25336, y: -456}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -35207086348538994}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 6331349677894301149}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -35207086348538994}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -35207086348538994}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 95411837114655629}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: 'You start hamering one drink after another
+
+
+
+
+'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetSleepInLogic
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 6
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: sleepInLogic
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 95411837114655629}
+            m_ObjectArgumentAssemblyTypeName: DialogInforamtion, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -8079,21 +9050,12 @@ MonoBehaviour:
   - {fileID: -4009741714612850857}
   - {fileID: 474145439750138465}
   - {fileID: 6331349677894301149}
-  - {fileID: 3995232087759642311}
   - {fileID: -8769342354968049674}
   - {fileID: 6238438038829812480}
   - {fileID: -6001307018565037444}
   - {fileID: -8855846891695529855}
   - {fileID: -6055968974507190608}
   - {fileID: -3225986365143621572}
-  - {fileID: -5572426269535768906}
-  - {fileID: 845425916314585170}
-  - {fileID: 2241799246219810615}
-  - {fileID: 6848210534531273665}
-  - {fileID: 8111374761062516955}
-  - {fileID: 2378070843781360400}
-  - {fileID: 4407275604706589930}
-  - {fileID: 3395553757161530477}
   - {fileID: 4611306034823136846}
   - {fileID: -4002415920808813722}
   - {fileID: 4520293722643946992}
@@ -8103,7 +9065,6 @@ MonoBehaviour:
   - {fileID: -7034645277367549335}
   - {fileID: 3532912573029422251}
   - {fileID: -3713340699293400108}
-  - {fileID: -6094408715299464497}
   - {fileID: -6003913394728946889}
   - {fileID: -7605293771915188202}
   - {fileID: 6102367891895199058}
@@ -8143,6 +9104,21 @@ MonoBehaviour:
   - {fileID: -5013901827810134476}
   - {fileID: -2993518306208957310}
   - {fileID: 3966874590090633146}
+  - {fileID: -5685728876995687163}
+  - {fileID: -1212110550015383365}
+  - {fileID: 1572986698615440107}
+  - {fileID: -6779833636434627893}
+  - {fileID: -6745750869546812065}
+  - {fileID: 8891669164822661312}
+  - {fileID: -42951846847143467}
+  - {fileID: -8336500498778537425}
+  - {fileID: -7709374295252579945}
+  - {fileID: 4709650027085936448}
+  - {fileID: -7593054762520357533}
+  - {fileID: 5563734874817466888}
+  - {fileID: -8905611826778543122}
+  - {fileID: -35207086348538994}
+  - {fileID: 95411837114655629}
 --- !u!114 &29924729873901180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8171,8 +9147,8 @@ MonoBehaviour:
       - fieldName: Answers 0
         node: {fileID: -2013435293226152879}
         reroutePoints: []
-      - fieldName: Answers 1
-        node: {fileID: 7461246602167277333}
+      - fieldName: Answers 0
+        node: {fileID: 1572986698615440107}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -8208,6 +9184,98 @@ MonoBehaviour:
     actions:
       m_PersistentCalls:
         m_Calls: []
+    Count: 0
+--- !u!114 &95411837114655629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: COMPLETION
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 25576, y: -424}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 95411837114655629}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -35207086348538994}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 95411837114655629}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 95411837114655629}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8769342354968049674}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: 'Mission compleated
+
+    Rewards
+
+    Liver damage -10
+
+    Respect
+    +5'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: HpLogic
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: -10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &129019253277905957
 MonoBehaviour:
@@ -8266,12 +9334,27 @@ MonoBehaviour:
   MessageArray: 'You try to join the locals there
 
     Its strange at first but after
-    a couple of drinks it all goes smoothly'
+    a couple of drinks it all goes smoothly
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 30
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &138030546583020820
 MonoBehaviour:
@@ -8327,12 +9410,24 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "The day coudnt get any worse \nCould it?"
+  MessageArray: "*Sigh*\nThe day coudnt get any worse \nCould it?"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 30
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &193031261871283669
 MonoBehaviour:
@@ -8510,13 +9605,28 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You jsut started to doze off and your phone started getting a load
+  MessageArray: 'You just started to doze off and your phone started getting a load
     of messages
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &322077039650052913
 MonoBehaviour:
@@ -8572,12 +9682,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You go to smoke fora couple of minuts
+  MessageArray: 'You go to smoke for a couple of minuts
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &389072365176232293
 MonoBehaviour:
@@ -8694,18 +9818,31 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "Hello there all my law abiding people I bring you urgend and wery
-    strange news\r\nThere is a new unusual disease ravaging a country \r\nThere should
-    be news from the goverment hitting your messages sometime today and there will
-    be a TV broadcast aswell\r\nThe disease allegedly turns people into zombies\r\nWell
-    gamer boys and gamer girls its your time to shine \"Chuckles\"\r\nWell thats
-    all from me folks \r\nHave an amazing night, stay safe,drive safe ,and most of
-    all enjoy the banger music\r\n\"Music start playing again\""
+  MessageArray: "Hello there all my law abiding people I bring you urgend and very
+    strange news, from other side of the world.\r There is a new unusual disease
+    ravaging a country . There should be\n news from the goverment\n hitting your
+    messages\n sometime today and there will\n be a TV broadcast aswell\r\nThe disease
+    allegedly turns people into zombies\r\nWell gamer boys and gamer girls its your
+    time to shine \"Chuckles\"\r\nWell thats all from me folks \r\nHave an amazing
+    night, stay safe,drive safe ,and most of all enjoy the banger music\r\n\"Music
+    start playing again\""
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &476174277527151915
 MonoBehaviour:
@@ -8766,7 +9903,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &499510408140326795
 MonoBehaviour:
@@ -8835,7 +9984,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You can leave if you want or get wasted
+  MessageArray: 'You can leave if you want or get wasted
+
+'
   Answers:
   - text: Get wasted
     actions:
@@ -8908,67 +10059,6 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
---- !u!114 &845425916314585170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 27320, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 845425916314585170}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: -5572426269535768906}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 845425916314585170}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 845425916314585170}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: 2241799246219810615}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: What the fuck its like a  vibrator
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
 --- !u!114 &883905856354852964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9023,7 +10113,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: After the hard day you dont feel like eating
+  MessageArray: 'After the hard day you dont feel like eating
+
+'
   Answers:
   - text: 
     actions:
@@ -9084,13 +10176,29 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You choose not to go watch TV so you are going to just lie down 
+  MessageArray: 'You choose not to go watch TV so you are going to just lie down 
     and try to sleep the rest of the day off
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 60
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &913434624296816454
 MonoBehaviour:
@@ -9148,13 +10256,26 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'So you decide to smoke.
 
-    "Not the best option but it will do"(You
-    thing to yourself)'
+    "Not the best option but it will do"
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &925286691212224565
 MonoBehaviour:
@@ -9210,12 +10331,10 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "Well not all days are filled with sunshine and rainbows \r\nSome
-    days you will feel like complete dogshit\r\nOther days you will feel that all
-    the bad luck just had to hit you today\r\nTrust me theres a light in the darkness\r\nYou
-    jsut need to look for it even if it takes years \r\nYou must find it because
-    there always one to find\r\nJust understand that there are people to support
-    you and give you strength in the search"
+  MessageArray: "Well not all days are filled with sunshine  and rainbows \r\nSome
+    days you will feel like complete sponge\r\nYou must find it because there always
+    one to find\r\nJust understand that there are people to support you and give
+    you strength in the search"
   Answers:
   - text: 
     actions:
@@ -9246,7 +10365,10 @@ MonoBehaviour:
       _node: {fileID: 973835498526618373}
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -4132898759791480613}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -9273,10 +10395,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'Probably im just drunk
-
-    I should jsut go back home as fast as
-    possible till the alcohol didnt hit me so hard yet'
+  MessageArray: "Probably im just drunk\nI should just go back home as fast as possible
+    till the alcohol \ndidn't hit me so hard yet\n\n"
   Answers:
   - text: 
     actions:
@@ -9337,13 +10457,29 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You're not in the mood to hear that bullshit so you just start chugging
-    all the drinks you can to get wasted
+  MessageArray: 'You''re not in the mood to hear that bullshit so you just start
+    chugging all the drinks you can to get wasted
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 60
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &1140561906680103106
 MonoBehaviour:
@@ -9399,7 +10535,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Well atleast im not the only on getting blasted today
+  MessageArray: 'Well atleast im not the only on getting blasted today
+
+'
   Answers:
   - text: 
     actions:
@@ -9710,12 +10848,85 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Yeah ive heard abaut it but not much just that it exists
+  MessageArray: "Yeah i've heard abaut it but\n not much just that it exists"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
         m_Calls: []
+    Count: 0
+--- !u!114 &1572986698615440107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 22952, y: -408}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 1572986698615440107}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: 7461246602167277333}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 1572986698615440107}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 1572986698615440107}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 29924729873901180}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: Some time passes
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &1702693943352432167
 MonoBehaviour:
@@ -9774,12 +10985,24 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: God damn it's not here
+  MessageArray: God damn it ... it's not here
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &1874581844577556661
 MonoBehaviour:
@@ -9903,67 +11126,6 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
---- !u!114 &2241799246219810615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 27576, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 2241799246219810615}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: 845425916314585170}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 2241799246219810615}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 2241799246219810615}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: 6848210534531273665}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: You open the phone up
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
 --- !u!114 &2329090145096667970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10018,65 +11180,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Out of nowhere the boss starts yelling (the usual).
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
---- !u!114 &2378070843781360400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 26200, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 2378070843781360400}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: -3225986365143621572}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 2378070843781360400}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 2378070843781360400}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: You drive back home seeing strange things.
+  MessageArray: 'Out of nowhere the boss starts yelling (the usual).
+
+'
   Answers:
   - text: 
     actions:
@@ -10198,7 +11304,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: YOU OLD PIECE OF SHIT
+  MessageArray: YOU OLD PIECE OF...
   Answers:
   - text: 
     actions:
@@ -10259,8 +11365,11 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You jsut started to doze off and your phone started getting a load
+  MessageArray: 'You just started to doze off and your phone started getting a load
     of messages
+
+
+'
   Answers:
   - text: 
     actions:
@@ -10458,7 +11567,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Well whils im here you can hear myne
+  MessageArray: 'Well whils im here you can hear myne
+
+'
   Answers:
   - text: 
     actions:
@@ -10519,7 +11630,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: What the fuck its like a  vibrator
+  MessageArray: "What the fuck its like a \n vibrator"
   Answers:
   - text: 
     actions:
@@ -10585,7 +11696,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &3003310773936913355
 MonoBehaviour:
@@ -10770,74 +11893,6 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
---- !u!114 &3395553757161530477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 26744, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 3395553757161530477}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: 4407275604706589930}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 3395553757161530477}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 3395553757161530477}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: -5572426269535768906}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: 'You get back home
-
-    Close the door behind you
-
-    And you look
-    for a comfy place to drop dead
-
-'
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
 --- !u!114 &3421409357755247576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10897,12 +11952,24 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'Here found it
 
-    Finnaly...'
+    Finally...'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &3532912573029422251
 MonoBehaviour:
@@ -10958,7 +12025,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You go to smoke fora couple of minuts
+  MessageArray: "You go to smoke for a couple\n of minuts"
   Answers:
   - text: 
     actions:
@@ -11019,7 +12086,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: The DJ cunts off the music and start speaking
+  MessageArray: "The DJ cuts off the music and\n starts speaking"
   Answers:
   - text: 
     actions:
@@ -11080,7 +12147,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You cant imagine how dogshit my day was
+  MessageArray: 'You cant imagine how dogshit my day was
+
+'
   Answers:
   - text: 
     actions:
@@ -11211,7 +12280,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 30
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &3966874590090633146
 MonoBehaviour:
@@ -11284,68 +12365,6 @@ MonoBehaviour:
         m_Calls: []
     Count: 0
   - text: Dont ask him for a light
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
---- !u!114 &3995232087759642311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 25432, y: -568}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 3995232087759642311}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: 6331349677894301149}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 3995232087759642311}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 3995232087759642311}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: -8769342354968049674}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: You're not in the mood to hear that bullshit so you just start chugging
-    all the drinks you can to get wasted
-  Answers:
-  - text: 
     actions:
       m_PersistentCalls:
         m_Calls: []
@@ -11465,8 +12484,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: One woman came here and she told me that in a span of a couple hours
-    she lost her house p,pet,husband,children,anda hand.
+  MessageArray: 'One woman came here and she told me that in a span of a couple hours
+    she lost her house,pet,husband,children,anda hand.
+
+
+
+
+
+'
   Answers:
   - text: 
     actions:
@@ -11527,12 +12552,36 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Wonderfull
+  MessageArray: "Wonderfull... \nDay well spent"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 540
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 480
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4167205300686787312
 MonoBehaviour:
@@ -11607,7 +12656,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "You heard me \nNOW PACK YOU'RE THINGS AND GET OUT"
+  MessageArray: "You heard me \nNOW PACK YOUR THINGS\n AND GET OUT"
   Answers:
   - text: Leave peacefully
     actions:
@@ -11673,75 +12722,32 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You finnaly got everything you need. Jumping in your car you decide
+  MessageArray: 'You finnaly got everything you need. Jumping in your car you decide
     not to turn on the radio for some peace and quiet befor the storm that is the
     place that is called work.
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
---- !u!114 &4407275604706589930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 26456, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 4407275604706589930}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 4407275604706589930}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 4407275604706589930}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: 3395553757161530477}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: 'Probably im just drunk
 
-    I should just go back home as fast as
-    possible till the alcohol didnt hit me so hard yet'
+
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4434170807057737818
 MonoBehaviour:
@@ -11797,13 +12803,28 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You're not in the mood to hear that bullshit so you just start chugging
-    all the drinks you can to get wasted
+  MessageArray: 'You''re not in the mood to hear that bullshit so you just start
+    chugging al
+
+
+    l the drinks you can to get wasted'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 90
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4438765350446474411
 MonoBehaviour:
@@ -11928,7 +12949,6 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'You sit alone and think what  to do next, what did you do to deserve
     this, you think abaut your family, how easy life was back then.
-
 
 
 
@@ -12058,7 +13078,10 @@ MonoBehaviour:
   MessageArray: 'You choose to wach the TV
 
     You go to the fridge to pick up a
-    bottle of beer that you were saving for a rainy day'
+    bottle of beer that you were saving for a rainy day
+
+
+'
   Answers:
   - text: 
     actions:
@@ -12147,8 +13170,6 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'I''ve had a bad day already I  dont want to ruin it even more with
     human interaction
-
-
 
 
 '
@@ -12284,12 +13305,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Well that was pleasant like always
+  MessageArray: 'Well that was pleasant like always...
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetTimeToWait
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 1
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4611306034823136846
 MonoBehaviour:
@@ -12304,7 +13339,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion1
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 168, y: 232}
+  position: {x: 120, y: 280}
   ports:
     keys:
     - input
@@ -12350,7 +13385,19 @@ MonoBehaviour:
   - text: Get up
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: ChangeMorale
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: -10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4677005496109429137
 MonoBehaviour:
@@ -12412,6 +13459,85 @@ MonoBehaviour:
     actions:
       m_PersistentCalls:
         m_Calls: []
+    Count: 0
+--- !u!114 &4709650027085936448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 26456, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 4709650027085936448}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -7709374295252579945}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 4709650027085936448}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 4709650027085936448}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -7593054762520357533}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: 'Probably im just drunk
+
+    I should just go back home as fast as
+    possible till the alcohol didnt hit me so hard yet
+
+
+'
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 45
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4735514813885676486
 MonoBehaviour:
@@ -12477,7 +13603,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: SetTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 30
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &4775319630745038320
 MonoBehaviour:
@@ -12594,12 +13732,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You leave the office room as quicly as you came in
+  MessageArray: 'You leave the office room as quicly as you came in
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &5077850308931340496
 MonoBehaviour:
@@ -12720,12 +13872,87 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'BULLSHIT...
 
-    I WANT ALL THAT DONE TODAY...'
+    I WANT ALL THAT DONE TODAY...
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
         m_Calls: []
+    Count: 0
+--- !u!114 &5563734874817466888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 23560, y: -1432}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 5563734874817466888}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: -5390601122117581241}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 5563734874817466888}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 5563734874817466888}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6441028103608158302}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: Some time passes
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &5800526620438593062
 MonoBehaviour:
@@ -12799,7 +14026,19 @@ MonoBehaviour:
   - text: Yes
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
   - text: No
     actions:
@@ -12865,7 +14104,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &5977846654532548327
 MonoBehaviour:
@@ -13119,7 +14370,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You can leave if you want or get wasted
+  MessageArray: "You can leave if you want or\n get wasted"
   Answers:
   - text: Get wasted
     actions:
@@ -13144,7 +14395,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 26040, y: -568}
+  position: {x: 26056, y: -376}
   ports:
     keys:
     - input
@@ -13253,23 +14504,50 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: -3713340699293400108}
+        node: {fileID: -1212110550015383365}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Do you want to go smoke to cool off and digest what you jsut heard?
+  MessageArray: 'Do you want to go smoke to cool off.
+
+
+'
   Answers:
   - text: Yes
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
   - text: No
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &6331349677894301149
 MonoBehaviour:
@@ -13320,7 +14598,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 3995232087759642311}
+        node: {fileID: -35207086348538994}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -13338,9 +14616,11 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You can leave if you want or get wasted
+  MessageArray: "You can leave if you want or you can accept new mission.\n\nReward:
+    Your liver take 10 damage and you gain +5 respect from your new bar friends\n\n
+    fri\n ge\nt wasted"
   Answers:
-  - text: Get wasted
+  - text: "Get wasted in under 30 minutes. \n"
     actions:
       m_PersistentCalls:
         m_Calls: []
@@ -13404,7 +14684,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: What the fuck its like a  vibrator
+  MessageArray: 'What the fuck its like a  vibrator
+
+'
   Answers:
   - text: 
     actions:
@@ -13439,8 +14721,8 @@ MonoBehaviour:
       - fieldName: Answers 0
         node: {fileID: 4775319630745038320}
         reroutePoints: []
-      - fieldName: Answers 1
-        node: {fileID: -5390601122117581241}
+      - fieldName: Answers 0
+        node: {fileID: 5563734874817466888}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -13490,7 +14772,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6232, y: 264}
+  position: {x: 6040, y: 296}
   ports:
     keys:
     - input
@@ -13502,11 +14784,11 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
-        node: {fileID: -2416320059971319994}
-        reroutePoints: []
       - fieldName: Answers 0
         node: {fileID: -5068228716865616429}
+        reroutePoints: []
+      - fieldName: Answers 1
+        node: {fileID: -2416320059971319994}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -13534,16 +14816,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'While driving to work you see a bit of strange commosion outside
-    the car. Alot of people shopping pushing carts full of toilet paper nad groceries.
-
-    Wery
-    strange indeed.'
+  MessageArray: "While driving to work you see a bit of strange commosion\n outside
+    the car. Alot of people shopping pushing carts full of toilet paper and groceries.\nWery
+    strange indeed.\n\n\n"
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 15
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &6461112617133785873
 MonoBehaviour:
@@ -13599,12 +14891,27 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: DO YOU UNDERSTAND HOW MUCH WORK YOU HAVE LEFT SINCE LAST WEEK?
+  MessageArray: 'DO YOU UNDERSTAND HOW MUCH WORK YOU HAVE LEFT SINCE LAST WEEK
+
+
+    ?'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &6607204418122445080
 MonoBehaviour:
@@ -13894,7 +15201,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &6803288109692399016
 MonoBehaviour:
@@ -13950,68 +15269,9 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You cant imagine how dogshit my day was
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
---- !u!114 &6848210534531273665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 27832, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 6848210534531273665}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: 2241799246219810615}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 6848210534531273665}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 6848210534531273665}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: 8111374761062516955}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: A NEW GLOBAL UNKNOWN INFECTION HAS STARTED
+  MessageArray: 'You cant imagine how dogshit my day was
+
+'
   Answers:
   - text: 
     actions:
@@ -14042,7 +15302,10 @@ MonoBehaviour:
       _node: {fileID: 6860316664089819204}
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -3484567469092983744}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -14072,12 +15335,27 @@ MonoBehaviour:
   MessageArray: 'Probably im just drunk
 
     I should just go back home as fast as
-    possible till the alcohol didnt hit me so hard yet'
+    possible till the alcohol didnt hit me so hard yet
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 45
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &6938257089172590554
 MonoBehaviour:
@@ -14133,7 +15411,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: "Oh come on ... \nCOME ON START"
+  MessageArray: "Oh come on ... \nCOME ON... START"
   Answers:
   - text: 
     actions:
@@ -14252,8 +15530,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: AND WHEN DO YOU THINK, YOU  WILL YOU FINNISH ALL THE LAST WEEKS WORK
+  MessageArray: 'AND WHEN DO YOU THINK, YOU  WILL FINNISH ALL THE LAST WEEKS WORK
     AND THIS WEEKS?
+
+
+
+'
   Answers:
   - text: 
     actions:
@@ -14316,13 +15598,25 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: "You can see him getting more red by the microsecond .\r\nIt looks
     like he will soon explode out of anger.\r\nWhile you calmly and gently walk out
-    of his office and sprint to your table \r\nPack up your necessities and book
-    it as fast as you can becouse you know its going to get bloody"
+    of his office and sprint to your table. Pack up your necessities and book it
+    as fast as you can becouse\n you know its going to get\n bloody\n\n\n\n\n\n"
   Answers:
-  - text: 
+  - text: yeet
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &7347610931256268218
 MonoBehaviour:
@@ -14378,12 +15672,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: What the hell does he want now
+  MessageArray: 'What the hell does he want now
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &7423030293186965477
 MonoBehaviour:
@@ -14450,7 +15758,19 @@ MonoBehaviour:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &7445021709436225705
 MonoBehaviour:
@@ -14465,7 +15785,7 @@ MonoBehaviour:
   m_Name: Dialog Inforamtion
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 19368, y: 984}
+  position: {x: 19448, y: 984}
   ports:
     keys:
     - input
@@ -14477,8 +15797,8 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
-        node: {fileID: -1687555946271307547}
+      - fieldName: Answers 0
+        node: {fileID: -5685728876995687163}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -14506,18 +15826,32 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'Yohmmm strange
+  MessageArray: 'Hmmm strange
 
-    Well thats what you get when you live in the
-    bad part of the neighborhoodu pack the car in the last parking spot
+    You find a spot and pack the car in the last parking
+    spot.
 
-    Well
-    atleast something is going your way isnt it?'
+    Well atleast something is going your way isnt it?
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &7461246602167277333
 MonoBehaviour:
@@ -14580,18 +15914,31 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 29924729873901180}
+        node: {fileID: 1572986698615440107}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: Do you want to go smoke to cool off and digest what you jsut heard?
+  MessageArray: "Do you want to go smoke to\n cool off and digest what you\n just
+    heard?"
   Answers:
   - text: Yes
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
   - text: No
     actions:
@@ -14778,13 +16125,30 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: You sit down on the comfy couch and turn on the TV sicling through
+  MessageArray: 'You sit down on the comfy couch and turn on the TV sicling through
     random station when you see something intresting
+
+
+
+
+'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0
 --- !u!114 &8064586566284035386
 MonoBehaviour:
@@ -14847,64 +16211,6 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
---- !u!114 &8111374761062516955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
-  m_Name: Dialog Inforamtion
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 28088, y: 56}
-  ports:
-    keys:
-    - input
-    - Answers
-    - Answers 0
-    values:
-    - _fieldName: input
-      _node: {fileID: 8111374761062516955}
-      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: Answers 0
-        node: {fileID: 6848210534531273665}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers
-      _node: {fileID: 8111374761062516955}
-      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: Answers 0
-      _node: {fileID: 8111374761062516955}
-      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  MessageArray: You wake up
-  Answers:
-  - text: 
-    actions:
-      m_PersistentCalls:
-        m_Calls: []
-    Count: 0
 --- !u!114 &8166579321975755015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14959,10 +16265,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'well ill be damned you speaking way to much truth my friend .
-
-    Maybe
-    you had way to many drinks ?'
+  MessageArray: "well ill be damned you speaking way to much truth my friend .\nMaybe
+    you had way\n to many drinks ?\n\n"
   Answers:
   - text: 
     actions:
@@ -15084,7 +16388,10 @@ MonoBehaviour:
   MessageArray: 'hmmm strange
 
     Well thats what you get when you live in the bad
-    part of the neighborhood'
+    part of the neighborhood.
+
+
+'
   Answers:
   - text: 
     actions:
@@ -15356,7 +16663,7 @@ MonoBehaviour:
       _dynamic: 1
   MessageArray: 'You enter the bar '
   Answers:
-  - text: Start chatting with the bar man
+  - text: Start chatting with the barman
     actions:
       m_PersistentCalls:
         m_Calls: []
@@ -15429,6 +16736,67 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     Count: 0
+--- !u!114 &8891669164822661312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb23b5e66bb5e0042a1e93711019350f, type: 3}
+  m_Name: Dialog Inforamtion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 27576, y: 56}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 8891669164822661312}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -6745750869546812065}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 8891669164822661312}
+      _typeQualifiedName: System.Collections.Generic.List`1[[DialogInforamtion+DialogOption,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 8891669164822661312}
+      _typeQualifiedName: DialogInforamtion+DialogOption, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -42951846847143467}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MessageArray: You open the phone up
+  Answers:
+  - text: 
+    actions:
+      m_PersistentCalls:
+        m_Calls: []
+    Count: 0
 --- !u!114 &9002846871867604854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15483,15 +16851,26 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  MessageArray: 'You pay up.Leave the bar.
+  MessageArray: 'You pay up.
 
-    and head to the car.
+    Leave the bar.
 
-
-'
+    And head for the car.'
   Answers:
   - text: 
     actions:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b2a9cc7bb815f254f88af0ff7664ff1e, type: 2}
+          m_TargetAssemblyTypeName: DialogActionLogic, Assembly-CSharp
+          m_MethodName: AddTime
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Count: 0

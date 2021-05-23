@@ -17,7 +17,7 @@ public class TimeManager : MonoBehaviour
     public void Update()
     {
         CalculateTime();
-        timeBox.text = hours.ToString() + " " +minuts.ToString();
+        timeBox.text = hours.ToString("00") + " : " +minuts.ToString("00");
     }
     private void CalculateTime()
     {

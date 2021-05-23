@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C8B6ABE4-4231-61AF-C248-E1EB0EBF9565}</ProjectGuid>
+    <ProjectGuid>{68FF1EEC-AB0F-7A53-2691-56B3FAC9E367}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>XNode</AssemblyName>

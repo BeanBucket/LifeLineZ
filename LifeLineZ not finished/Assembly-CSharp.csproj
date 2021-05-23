@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9B4587F5-6006-8562-AACD-0F4455BCF3F6}</ProjectGuid>
+    <ProjectGuid>{7F438AC3-80E3-128B-F9AF-EFC2880BAB40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\NodeEditor\xNodeNeededShit\Dialog.cs" />
     <Compile Include="Assets\Scripts\Pannel scripts\PannelOppener.cs" />
     <Compile Include="Assets\Scripts\TimeHpMorale\HpBar.cs" />
+    <Compile Include="Assets\Scripts\PouseTheGame.cs" />
     <Compile Include="Assets\Scripts\DialogActionLogic.cs" />
     <Compile Include="Assets\Scripts\NodeEditor\DialogNodeEditor.cs" />
     <Compile Include="Assets\Scripts\DialogInforamtion.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="Assets\Scripts\TimeHpMorale\MoraleLogic.cs" />
     <Compile Include="Assets\Scripts\TextWriterCall.cs" />
     <Compile Include="Assets\Scripts\DeathAndRestart.cs" />
-    <Compile Include="Assets\Scripts\PouseTheGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -685,11 +685,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="XNodeEditor.csproj">
-      <Project>{85C5F418-A5CF-58FD-8416-120BA81086A0}</Project>
+      <Project>{7A1C7919-FCB8-511D-5F57-C048C29751A3}</Project>
       <Name>XNodeEditor</Name>
     </ProjectReference>
     <ProjectReference Include="XNode.csproj">
-      <Project>{C8B6ABE4-4231-61AF-C248-E1EB0EBF9565}</Project>
+      <Project>{68FF1EEC-AB0F-7A53-2691-56B3FAC9E367}</Project>
       <Name>XNode</Name>
     </ProjectReference>
   </ItemGroup>

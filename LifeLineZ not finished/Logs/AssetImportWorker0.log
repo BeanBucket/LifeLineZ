@@ -1,0 +1,1842 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Mantas/Desktop/LifeLineZ/LifeLineZ not finished
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51851
+Successfully changed project path to: C:/Users/Mantas/Desktop/LifeLineZ/LifeLineZ not finished
+C:/Users/Mantas/Desktop/LifeLineZ/LifeLineZ not finished
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mantas/Desktop/LifeLineZ/LifeLineZ not finished/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002526 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.139 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 249 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.927800 ms (FindLiveObjects: 0.209100 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.557100 ms  DeleteObjects: 0.123400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eb085c27c20f96f4d539ba0dc52469') in 0.087533 seconds
+  Import took 0.090565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.309070 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4f4bd0b787dc954308afa7290942a7') in 0.051256 seconds
+  Import took 0.053881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001406 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4f4bd0b787dc954308afa7290942a7') in 0.052420 seconds
+  Import took 0.054977 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.4 MB.
+System memory in use after: 72.5 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.892900 ms (FindLiveObjects: 0.171700 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.519700 ms  DeleteObjects: 0.168900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.561382 seconds.
+  path: Assets/Scripts/TimeHpMorale/MoraleLogic.cs
+  artifactKey: Guid(109ce3a4410659045a34ed1e44d0c779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeHpMorale/MoraleLogic.cs using Guid(109ce3a4410659045a34ed1e44d0c779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b03a4217e735a14cf0547261abcd51d') in 0.015783 seconds
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.762524 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082bab910490d9017407b4e1d53f616e') in 0.057476 seconds
+  Import took 0.059941 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 1.833400 ms (FindLiveObjects: 0.232900 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.436100 ms  DeleteObjects: 0.131600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.971486 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08393711906d493eb9eefb6d24eb7004') in 0.062493 seconds
+  Import took 0.065060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.883677 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6338cc66fd79f995a7aa827d7edc6cf') in 0.109165 seconds
+  Import took 0.111310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.826681 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b836bd85f7f4f68b85509f72bf6575') in 0.051101 seconds
+  Import took 0.053557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.472138 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4566f641afe5d1b178c7c8cc42a68ccf') in 0.050999 seconds
+  Import took 0.053409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.632298 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fba7743443e2d665551c3e6efd02a5') in 0.051455 seconds
+  Import took 0.053870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.122635 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0170591c642de63aad1db0e4b0da99ad') in 0.052916 seconds
+  Import took 0.055595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.272520 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ee6e542b4c55600462d8552e04632b') in 0.051389 seconds
+  Import took 0.053954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.950232 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ed71feec896403aed0aa023db23ea7') in 0.051619 seconds
+  Import took 0.054389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.975100 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8567ecf1262e3af586979df450f301a1') in 0.052074 seconds
+  Import took 0.054866 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 1.994600 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.600100 ms  DeleteObjects: 0.167600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1674.
+Total: 2.451200 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.034000 ms  DeleteObjects: 0.146100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.5 MB.
+System memory in use after: 76.6 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 1.833800 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.486600 ms  DeleteObjects: 0.120700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.869433 seconds.
+  path: Assets/Scripts/DialogActionLogic.cs
+  artifactKey: Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogActionLogic.cs using Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa6063f298da3ce52ff169805df4c9') in 0.011158 seconds
+  Import took 0.013580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017915 seconds.
+  path: Assets/Scripts/DialogActionLogic.cs
+  artifactKey: Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogActionLogic.cs using Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa6063f298da3ce52ff169805df4c9') in 0.003244 seconds
+  Import took 0.005625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.587645 seconds.
+  path: Assets/Scripts/PouseTheGame.cs
+  artifactKey: Guid(51a390c07dcf02d4d9456209ae1e70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PouseTheGame.cs using Guid(51a390c07dcf02d4d9456209ae1e70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566cdcaaf4568cc2e880d863eafb0790') in 0.008543 seconds
+  Import took 0.011018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/Scripts/PouseTheGame.cs
+  artifactKey: Guid(51a390c07dcf02d4d9456209ae1e70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PouseTheGame.cs using Guid(51a390c07dcf02d4d9456209ae1e70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566cdcaaf4568cc2e880d863eafb0790') in 0.003034 seconds
+  Import took 0.005097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.760248 seconds.
+  path: Assets/Scripts/Logic.asset
+  artifactKey: Guid(b2a9cc7bb815f254f88af0ff7664ff1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Logic.asset using Guid(b2a9cc7bb815f254f88af0ff7664ff1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f690791f184a170fa64c838c80638dfd') in 0.014620 seconds
+  Import took 0.016746 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 2.242300 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.803900 ms  DeleteObjects: 0.160700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.1 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 2.879200 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.060400 ms MarkObjects: 2.257900 ms  DeleteObjects: 0.169000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 2.798900 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.217300 ms  DeleteObjects: 0.157200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.682784 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da4f1c2229ef06bb85739c61b48200a') in 0.060845 seconds
+  Import took 0.063588 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.6 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.892900 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.544300 ms  DeleteObjects: 0.128400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 5.756000 ms (FindLiveObjects: 0.519600 ms CreateObjectMapping: 0.119400 ms MarkObjects: 4.921400 ms  DeleteObjects: 0.193300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.156027 seconds.
+  path: Assets/Scripts/DialogActionLogic.cs
+  artifactKey: Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogActionLogic.cs using Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd3b1243329b3ef52d7a752c5dc641') in 0.007359 seconds
+  Import took 0.009591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022578 seconds.
+  path: Assets/Scripts/DialogActionLogic.cs
+  artifactKey: Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogActionLogic.cs using Guid(661ee6eb8ce9f8949b6bb36f60f15066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccd3b1243329b3ef52d7a752c5dc641') in 0.003616 seconds
+  Import took 0.006487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 1688.
+Total: 2.635300 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.036600 ms MarkObjects: 2.134200 ms  DeleteObjects: 0.153900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 967.675429 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2456d62f8fe9172bb58364acfb91f642') in 0.068286 seconds
+  Import took 0.071334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.539447 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23e80a0ccdbe7654ee0ec9b8687d582') in 0.052868 seconds
+  Import took 0.055375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854798 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b145880bf93de70fac33daf8f86358f') in 0.083971 seconds
+  Import took 0.090030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.899847 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e9df84e53edd3e10a49e82626ec27d') in 0.052373 seconds
+  Import took 0.055311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502369 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545e1376013e8753ba32157d1679e380') in 0.052182 seconds
+  Import took 0.054693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.018504 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5d10637456498df909ed9a5ab4cfa2') in 0.053834 seconds
+  Import took 0.056444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005431 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3473c145f44d7bfb8eec1250af5d0') in 0.053910 seconds
+  Import took 0.056549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.657918 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0593e21b851a5ba35fdf2dc45cdc3f') in 0.058830 seconds
+  Import took 0.061516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.017836 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f63927891b8f7bdc3ca27b7b710e510') in 0.053167 seconds
+  Import took 0.055676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 242 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 2.668900 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.040900 ms MarkObjects: 2.182500 ms  DeleteObjects: 0.209400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 242 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 1.917500 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.560800 ms  DeleteObjects: 0.132300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001523 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 242 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 3.817300 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.052900 ms MarkObjects: 3.292300 ms  DeleteObjects: 0.189100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 242 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 2.526500 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.041200 ms MarkObjects: 2.066300 ms  DeleteObjects: 0.170300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 242 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 3.383100 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.792900 ms  DeleteObjects: 0.191700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1877.060372 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd88cf071091c4d42662e1e02d82557') in 0.062559 seconds
+  Import took 0.065277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.569237 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c052a3ae7a86395992164a7eed0f9a36') in 0.052178 seconds
+  Import took 0.054983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344310 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a7258488b234edb8c82e680e0991f1') in 0.052730 seconds
+  Import took 0.055306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.406474 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90dba60edb90c29d050fc35055abd7a') in 0.053284 seconds
+  Import took 0.056320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.618938 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d55ade68330472ddb0b41e094ddc5c') in 0.051781 seconds
+  Import took 0.054275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.702432 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3596500f881655466d744070f52d266') in 0.052326 seconds
+  Import took 0.055036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.604560 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d876bc419f9fe0275c0646a85d2fe18') in 0.052329 seconds
+  Import took 0.054938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.877027 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d160d9f4f6c3b04249d8d4ec3bfec7') in 0.058387 seconds
+  Import took 0.061140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.966934 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263cfaa33c8b7e131c89cba019cc4284') in 0.052662 seconds
+  Import took 0.055479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.101242 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8ed52e285ca0ee551a9d99332dbeb0') in 0.054522 seconds
+  Import took 0.057650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.074657 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3c8be8c687f1b704ffaa9a9bf17192') in 0.054029 seconds
+  Import took 0.056567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.450280 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5485cfdfaaa7d1a5cf9d5a7ea87d0') in 0.052997 seconds
+  Import took 0.055759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.803514 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61da7f807c74de404055fea8b9ab7fe') in 0.063605 seconds
+  Import took 0.066877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.453502 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8fb0656ab18abd3a0767d53526ecb5') in 0.053520 seconds
+  Import took 0.056306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.734486 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35b256c8be1aba4a1ba083cab9443b6') in 0.052748 seconds
+  Import took 0.055500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.076669 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d75f351f337e4ab9cfcf89f5bbef4b') in 0.052967 seconds
+  Import took 0.055627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.038868 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9368ec671ae84a117935ed0eab0d06c0') in 0.061173 seconds
+  Import took 0.063936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.027503 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ed25b6f01c098ea72ee0dcce566bec') in 0.056343 seconds
+  Import took 0.059076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.712005 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7940b5b8ee8b3bb5990eeabad922e4') in 0.054701 seconds
+  Import took 0.057259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.248598 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8166f0aa1e8b5f63fc8bf3a39b60bd9') in 0.052963 seconds
+  Import took 0.055587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.847358 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8bdc61a6bd5a189863b26207e7243a') in 0.060991 seconds
+  Import took 0.063662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5526.791197 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea9e7720dc4530df4adc410ca314564') in 0.054230 seconds
+  Import took 0.057225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.757640 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90afa7d107269387e7e82936e186b4ca') in 0.069837 seconds
+  Import took 0.073598 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 243 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 1.886000 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.546500 ms  DeleteObjects: 0.130300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.4 MB.
+
+Unloading 243 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 2.040000 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.642800 ms  DeleteObjects: 0.141200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 508.102594 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac135b6e3f78b4661eb2957ebe0e0fb9') in 0.063841 seconds
+  Import took 0.066616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.343784 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da888e898858d902d514492ad57a3993') in 0.053057 seconds
+  Import took 0.055679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.750940 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f6669bb66d7e0ad356c7ef2cb891f') in 0.057177 seconds
+  Import took 0.060495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.222680 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd879d941f62faa701c3259cd17f20b6') in 0.058623 seconds
+  Import took 0.061502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.960932 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59300c0ef69cfd6e5d70cfdbc5d358b') in 0.064619 seconds
+  Import took 0.068124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.628001 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a387c6e589308a7ae46864a65e33fa26') in 0.056903 seconds
+  Import took 0.059754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.567826 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bdeed4a01d5abfbc195e112ec53c8b') in 0.063930 seconds
+  Import took 0.067427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.180830 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4655d6570e91078bac837cede3a1c11') in 0.054364 seconds
+  Import took 0.057032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.931485 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4d0c1fbccec638e373811e0deabef8') in 0.053599 seconds
+  Import took 0.056303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.084235 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c210b4709013dafb1eb24ba22bfb3cb0') in 0.064330 seconds
+  Import took 0.067838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.454458 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8651d0c7cc8781f5cb8e86ad141f80cf') in 0.062482 seconds
+  Import took 0.065485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.675714 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c80e5477fc0e5a8233215bad7c08544') in 0.060021 seconds
+  Import took 0.062893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.353285 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb20d40c0202fe02f656a4f62aa074f') in 0.067903 seconds
+  Import took 0.071612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.849399 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932816704418012fc8809163a5ad7d13') in 0.054499 seconds
+  Import took 0.057188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316757 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d538ba752d50293ca989a6585cd956') in 0.053918 seconds
+  Import took 0.057037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936963 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d8a523c79545aaea001a62d3484043') in 0.053455 seconds
+  Import took 0.055999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.088425 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b71ec340d5cab29d39665da11f7626') in 0.059726 seconds
+  Import took 0.062650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.761535 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9a0aed2f0005fb3c3ae8e457323ca') in 0.058526 seconds
+  Import took 0.061559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.439296 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ba0c092f74fcbe019e31e73c9e5c44') in 0.060739 seconds
+  Import took 0.064111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.459312 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cdfabab7110ccfa376c9c614952703') in 0.066055 seconds
+  Import took 0.069234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.040810 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912d6e4a49b8a9345c60625de05fb198') in 0.053995 seconds
+  Import took 0.056645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.962499 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae08102c522d7bc8080350b248d2238c') in 0.053726 seconds
+  Import took 0.056463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.630593 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19b94bb23e9e2bc2fc4d025a1d89d97') in 0.054259 seconds
+  Import took 0.056935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.280346 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dc9f075bd0a8774a7f830d3695a47a') in 0.068077 seconds
+  Import took 0.071263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.918472 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50578ca81729e02612c490ccc38c7983') in 0.078595 seconds
+  Import took 0.081938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.087265 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61047fa7fe8e0bbf27b865ec97907ed') in 0.077628 seconds
+  Import took 0.081113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.819188 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3d1512cd4bc83d7444ae20da61615a') in 0.066596 seconds
+  Import took 0.069801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 597.168887 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb403f0851a21cb597aecd3edccfd7') in 0.054349 seconds
+  Import took 0.057175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.717748 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c7bf5c38ab25c046c54221d1a9ed3b') in 0.070976 seconds
+  Import took 0.079262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 606.500623 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a2dd422775a00c896ccfeb302b33aa') in 0.066617 seconds
+  Import took 0.070095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 353.705431 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e79537114cbeae10d114f55e24ec05') in 0.053440 seconds
+  Import took 0.056219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.181910 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd618395c3bf3b0b24b4e93ac84dccebf') in 0.059207 seconds
+  Import took 0.062535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 933.280491 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8049c4190949903a5c2836d22061ef43') in 0.054228 seconds
+  Import took 0.057420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.924110 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1ba3b2c7bd210de3099d9d623871a3') in 0.071187 seconds
+  Import took 0.074668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.161004 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d5c763f321153336c0b49ece462575') in 0.054367 seconds
+  Import took 0.057211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.498150 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f6dfe5959de10205d0f4984ed2751b') in 0.060782 seconds
+  Import took 0.064134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.889968 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c283154fc65726d955662ce1d64548b8') in 0.061283 seconds
+  Import took 0.064143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.661050 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdba8c30c4309b596d872a6d49c84d3') in 0.059453 seconds
+  Import took 0.062301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.685197 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a341878130c952dbc7f54fd6e1de2edc') in 0.060556 seconds
+  Import took 0.063709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.313866 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c0658e2bb895dd9913b11fecc2f499') in 0.053883 seconds
+  Import took 0.056441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.273962 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073a262c01fa0622a03ea195fd56521e') in 0.063174 seconds
+  Import took 0.065999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.842330 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511b6ac986109c06bc82e059b02e4a4b') in 0.070876 seconds
+  Import took 0.074560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.377318 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32561fb448b37e7297df3a0d1334918') in 0.060337 seconds
+  Import took 0.063478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.547476 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a87bfbc3aa7ac96d80ee281df75ff7e') in 0.069903 seconds
+  Import took 0.073561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.064550 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2084be36cbcd92434fc298aa04a1393') in 0.057792 seconds
+  Import took 0.061782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.885624 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c42929d77be6bde9127b32b26549191') in 0.061974 seconds
+  Import took 0.065027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.985246 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d7b4d0f4311d690d6f288a6498b244') in 0.067810 seconds
+  Import took 0.071169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.415874 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55710e1e5839b6c848beab8b51e19b20') in 0.067105 seconds
+  Import took 0.070413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 633.620918 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b5c7b29e584ee5cca88f29493eec26') in 0.054392 seconds
+  Import took 0.057285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703229 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70e6d59fac5571e71788c6e465f0e7f') in 0.054194 seconds
+  Import took 0.057108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 749.111618 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d84a8d4d2ea33f311e8e23a6ccb5071') in 0.059339 seconds
+  Import took 0.062165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.974780 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65936faf0f1b4dc3b0251a2c587f6b0a') in 0.060399 seconds
+  Import took 0.063267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.270063 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04550f76fe2edef599b54ebc22a0004') in 0.055056 seconds
+  Import took 0.057738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.787673 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf25314cc1ba1c7f8ef9d36b1c78f2c') in 0.069566 seconds
+  Import took 0.075427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.650444 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed1d4927a0512d6bf18836ce436eb18') in 0.058424 seconds
+  Import took 0.061279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.342864 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefa35f3b3c66f04f8904c638d32a858') in 0.056746 seconds
+  Import took 0.059997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.910029 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee5f56724599b2499f1b64fe574cbbc') in 0.054609 seconds
+  Import took 0.057415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.131681 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc60687a4a481db24cbc6b9b07f3df2') in 0.067178 seconds
+  Import took 0.070863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.350972 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666bd8176a0ecbc5082911485103879d') in 0.054132 seconds
+  Import took 0.056726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.936548 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ee452e932c2f731e0cc18535ff3882') in 0.054083 seconds
+  Import took 0.056753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.424116 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8437dfe0bb6a74726beb33b6f0feaec7') in 0.064435 seconds
+  Import took 0.067844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.032781 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b8c4c222dc87202dcae7bd0d2d4c30') in 0.059218 seconds
+  Import took 0.062564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.332505 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffb9af1f6ce77ecb658cbc1af1b8320') in 0.058058 seconds
+  Import took 0.060936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.190853 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659344e006871db60bf901c44827ba36') in 0.061188 seconds
+  Import took 0.064194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.950882 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e66fcbf783e2d5e882a3e91d31f46a') in 0.067996 seconds
+  Import took 0.071013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.836911 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce93ea00f9ca4361e2a6db66c858d2a') in 0.069611 seconds
+  Import took 0.072700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.435940 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbcac62f7182a61d7b469b9b2d7f394') in 0.074095 seconds
+  Import took 0.077731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.146850 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0505b51197476941104b4cacc7cff6') in 0.054345 seconds
+  Import took 0.056983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.497419 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc03a0756f48aec4e8d60251751a405') in 0.054798 seconds
+  Import took 0.057539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.578401 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2132e8430e2072334b7910e7f8ef4c2') in 0.068526 seconds
+  Import took 0.072032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.230357 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131243171ecc1fdc64cfea6f2fc73fa4') in 0.060512 seconds
+  Import took 0.063600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.642186 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01132b12071719e2136eaa2a102eba7') in 0.054405 seconds
+  Import took 0.057222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 1.841700 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.499700 ms  DeleteObjects: 0.116600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.8 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1706.
+Total: 3.224800 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.694500 ms  DeleteObjects: 0.186000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.632838 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebc1fd7a0246545e97414cf973b581f') in 0.062438 seconds
+  Import took 0.065188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.523200 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f2b75900f48ed459cbda1811e34484') in 0.053951 seconds
+  Import took 0.056534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.466192 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c072ca01c5d1312c584d3bd85e1b477d') in 0.060134 seconds
+  Import took 0.063059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.983701 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a2b7e79fa70bd85b1d0430d0a8c547') in 0.055737 seconds
+  Import took 0.058529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.562555 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f752fc999485c381a4ac26faed7faeb3') in 0.070192 seconds
+  Import took 0.073447 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 3.037400 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.367600 ms  DeleteObjects: 0.201700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000939 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 2.059900 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.689300 ms  DeleteObjects: 0.137300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.360186 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c25bfdac12fbbacbafb15818f862e43') in 0.064160 seconds
+  Import took 0.067031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.487376 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fedb439e3611cbefc54939cd6d83b0') in 0.054248 seconds
+  Import took 0.056915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.886789 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8a54900a2b56761a9843cb6cec2313') in 0.060336 seconds
+  Import took 0.063390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.783405 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ecfd731bf87471b52e78e2cd16d0e0') in 0.057600 seconds
+  Import took 0.060396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.575501 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c5a3d2475096e803ca0d46efa7e3de') in 0.064270 seconds
+  Import took 0.067495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.427732 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3efe4d7f6695d516f90bd35bdaa787e') in 0.073705 seconds
+  Import took 0.076961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.934116 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd947466818d3a1edc118fc9a1bb3592c') in 0.058458 seconds
+  Import took 0.061495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.947320 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c26014b064d821364ea2b11970dd53') in 0.069334 seconds
+  Import took 0.072292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 421.528753 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106d5911980e5c49dc4b6a666b4ff91e') in 0.054841 seconds
+  Import took 0.057542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.465131 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af27877a0ed2cf9c7594e8dcad9fa767') in 0.054460 seconds
+  Import took 0.057112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.380718 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc32c96204b7be596ca9238ec232ba6') in 0.067370 seconds
+  Import took 0.070990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.606550 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d2a6cfda205f5cf9967c30a67158f') in 0.054045 seconds
+  Import took 0.056762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.588014 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8ad620c85d9863d34d584a0ed02e03') in 0.054502 seconds
+  Import took 0.057235 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.8 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 1.954700 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.573300 ms  DeleteObjects: 0.136600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4521.767672 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b1ce3ea00c7b468c7cd26d5c47b2ad') in 0.071110 seconds
+  Import took 0.074488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.8 MB.
+System memory in use after: 77.8 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 1.856200 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.527400 ms  DeleteObjects: 0.114400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.492597 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7708f987bba3e6c32ad57664c796c6fc') in 0.075728 seconds
+  Import took 0.078937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 650.387696 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce49e9f33934854124968ec8a0ba0c9') in 0.053761 seconds
+  Import took 0.056407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 1716.
+Total: 1.872000 ms (FindLiveObjects: 0.169300 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.547200 ms  DeleteObjects: 0.121100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.938953 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63b29cd3fd5dd97d6f44fbbff3fa7f9') in 0.063164 seconds
+  Import took 0.065823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.825579 seconds.
+  path: Assets/Story graphs/New Dialog Graph.asset
+  artifactKey: Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story graphs/New Dialog Graph.asset using Guid(256a1b31c352013428fc089ac26c2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752180c5f2afd1ad95b050ef98966ef1') in 0.054039 seconds
+  Import took 0.056688 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

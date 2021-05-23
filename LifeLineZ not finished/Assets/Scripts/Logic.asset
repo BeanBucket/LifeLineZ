@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661ee6eb8ce9f8949b6bb36f60f15066, type: 3}
   m_Name: Logic
   m_EditorClassIdentifier: Assembly-CSharp::SpawnManagerScriptableObject
-  hp: 0
-  isAwake: 0
-  time: 0
-  howManySleepTimes: 0
+  timesDone: 0
+  howManySleepTimes: 4
   prefabName: 
   numberOfPrefabsToCreate: 0
   spawnPoints: []

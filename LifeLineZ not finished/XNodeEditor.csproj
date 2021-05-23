@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{85C5F418-A5CF-58FD-8416-120BA81086A0}</ProjectGuid>
+    <ProjectGuid>{7A1C7919-FCB8-511D-5F57-C048C29751A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>XNodeEditor</AssemblyName>
@@ -692,7 +692,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="XNode.csproj">
-      <Project>{C8B6ABE4-4231-61AF-C248-E1EB0EBF9565}</Project>
+      <Project>{68FF1EEC-AB0F-7A53-2691-56B3FAC9E367}</Project>
       <Name>XNode</Name>
     </ProjectReference>
   </ItemGroup>

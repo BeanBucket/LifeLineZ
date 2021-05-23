@@ -9,7 +9,7 @@ public class DialogActionLogic : ScriptableObject
     {
         HpBar.ChangeHp(howMuch);
     }
-    public void Time(int howMuch)
+    public void AddTime(int howMuch)
     {
         TimeManager.AddTime(howMuch);
     }
@@ -19,6 +19,7 @@ public class DialogActionLogic : ScriptableObject
         if (timesDone > howManySleepTimes) 
         { 
             Ui_Assistant.Instance.UpdateDialog(di);
+            timesDone = 0;
         }
         else 
         {
@@ -39,7 +40,15 @@ public class DialogActionLogic : ScriptableObject
         howManySleepTimes = howMany;
     }
     public string prefabName;
+public void ChangeMorale(int HowMany)
+    {
 
+        MoraleSystem.ChangeMorale(HowMany);
+    }
+    public void SetMorale(int Morale)
+    {
+        MoraleSystem.SetMorale(Morale);
+    }
     public int numberOfPrefabsToCreate;
     public Vector3[] spawnPoints;
 }
